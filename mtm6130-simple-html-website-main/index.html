@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foods and Drinks</title>
+</head>
+<body>
+
+  <h1>Foods And Drinks</h1>
+  <img src="/image/snacks.jpg" alt="Snacks Image" height="300"><br>
+
+  <nav>
+    <a href="/drinks.html">Soft Drinks</a><br>
+    <a href="/chocolate.html">Chocolate</a><br>
+    <a href="/chips.html">Chips</a><br><br>
+    
+  </nav>
+
+  <h2>User Details</h2>
+  <form action="#" method="post">
+
+    <label for="first-name">First Name:</label>
+    <input id="first-name" type="text" name="first-name" placeholder="First name" required><br><br>
+
+    <label for="last-name">Last Name:</label>
+    <input id="last-name" type="text" name="last-name" placeholder="Last name" required><br><br>
+
+    <label for="mail">Email:</label>
+    <input id="mail" type="email" name="email" placeholder="example@email.com" required><br><br>
+
+    <h3>How many do you want to buy?</h3>
+    <label for="quantity">Number:</label>
+    <input id="quantity" type="number" name="quantity" min="2" max="30" step="2"><br><br>
+
+    <h3>Which product do you want to buy?</h3>
+    <label for="product">Product:</label>
+    <select id="product" name="product">
+      <option value="snacks">Snacks</option>
+      <option value="drinks">Drinks</option>
+      <option value="chocolate">Chocolate</option>
+    </select><br><br>
+
+    <h4>Choose your favourite flavour:</h4>
+    <input type="checkbox" id="salty" name="flavour" value="salty">
+    <label for="salty">Salty</label>
+
+    <input type="checkbox" id="normal" name="flavour" value="normal">
+    <label for="normal">Normal</label>
+
+    <input type="checkbox" id="spicy" name="flavour" value="spicy" checked>
+    <label for="spicy">Spicy</label><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+
+</body>
+</html>
